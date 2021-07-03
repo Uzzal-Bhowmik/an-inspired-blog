@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+.ul_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(246, 227, 191, 0.925);
+    overflow: hidden;
+}
+
+.ul_nav li {
+    float: left;
+}
+
+.ul_nav li span{
+    display: block;
+    padding: 16px 11px;
+    margin-left: 6px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-align: center;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ul_nav li span:hover{
+    color: rgb(182, 9, 9);
+    cursor: pointer;
+}
+
+.fblogo i:hover{
+    color: rgba(30, 143, 255, 0.883);
+    
+}
+
+.ublogomain {
+    display: block;
+    width: 140px;
+    height: 120px;
+}
+
+.under_img_text {
+    margin-top: 0px;
+    font-weight: 100;
+    color: rgb(241, 138, 155);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ul_under_img{
+    list-style-type: none;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.ul_under_img li{
+    display: inline-block;
+}
+
+.ul_under_img li span{
+    display: inline-block;
+    padding: 16px 11px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+
+}
+
+.ul_under_img li span:hover{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: pink;
+}
